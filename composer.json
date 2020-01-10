@@ -1,0 +1,21 @@
+{
+  "name": "nekom/inc_data",
+  "description": "自增假数据类",
+  "homepage": "https://github.com/LikeNeko/inc_data",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Neko",
+      "homepage": "https://nekom.cc"
+    }
+  ],
+  "require": {
+    "php":">=7.0"
+  },
+  "require-dev" : {},
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {"inc_data\\": "src/inc_data"}
+  }
+}
